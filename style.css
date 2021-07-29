@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .Irin{
     color: brown;
 }
-section{
+.flexible-containe{
     display: flex;
     margin-bottom: 150px;
     
@@ -40,4 +43,30 @@ section{
     padding-right: 150px;
    
 }
-
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px  grey;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;       
+}
+#Developer-1{
+    border-left: 8px solid;
+    border-image: linear-gradient( blue, cyan );
+    border-image-slice: 1;
+}
+#Developer-2{
+    border-left: 8px solid;
+    border-image: linear-gradient( salmon, tomato );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
