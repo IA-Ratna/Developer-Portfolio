@@ -21,9 +21,14 @@ h2{
     padding-left: 5%; 
 }
 .half-with img{
-    margin-top: 100px;
     width: 80%;
 }
+#ratna{
+    margin-top: 100px;
+} 
+
+    
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(brown, rgb(240, 96, 96)); 
