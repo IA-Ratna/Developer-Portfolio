@@ -10,6 +10,8 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
+    
 }
 .half-with{
     width: 50%;
@@ -25,9 +27,17 @@ section{
     color: white;
     font-weight: 500;
     border-radius: 10px 0px;   
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 150px;
+   
 }
 
